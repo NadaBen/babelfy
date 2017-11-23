@@ -42,7 +42,7 @@ if response.info().get('Content-Encoding') == 'gzip':
 
                 # retrieving BabelSynset ID
                 synsetId = result.get('babelSynsetID')
-                print ('word'+ "\t" +result.get('source'))
+                print ('source'+ "\t" +result.get('source'))
                 print('DBpediaURL'+ "\t" +result.get('DBpediaURL'))
                 print('BabelNetURL'+ "\t" +result.get('BabelNetURL'))
                 print('globalScore'+ "\t" +str(result.get('globalScore')))
